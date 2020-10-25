@@ -1,0 +1,167 @@
+/* footer */
+
+.footer {
+  background-color: var(--secondary-fon-color);
+}
+
+.footer > .conteiner {
+  align-items: flex-start;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .nav-footer {
+  margin-right: 70px;
+}
+
+.footer .social-footer {
+  padding-top: 12px;
+}
+
+/* logo  */
+
+.footer .logolegs {
+  color: var(--primary-fon-color);
+}
+
+.footer .logo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* address  */
+
+.footer .footer-address {
+  flex-direction: column;
+}
+
+.footer-address > li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-address .geo {
+  color: var(--primary-fon-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .title {
+  color: var(--primary-fon-color);
+
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer .title {
+  margin-bottom: 20px;
+}
+
+.footer .icon-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer .icon-social svg {
+  fill: var(--primary-fon-color);
+}
+.footer .icon-social:hover,
+.footer .icon-social:focus {
+  background-color: var(--primary-logo-color);
+}
+
+/* footer-form-telegram */
+
+.footer-form-conteiner {
+  padding-top: 12px;
+  margin-left: 93px;
+}
+
+.title-form-footer {
+  color: var(--primary-fon-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-form-wrapper {
+  display: flex;
+}
+
+.footer-form-telegram {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  background-color: transparent;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.footer-form-telegram::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 50px;
+  margin-left: 8px;
+
+  outline: none;
+  background-color: var(--primary-logo-color);
+  color: var(--primary-fon-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-form-btn svg {
+  margin-left: 12px;
+}

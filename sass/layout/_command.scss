@@ -1,0 +1,91 @@
+/* .command */
+
+.command {
+  background-color: var(--supporting-fon-color);
+}
+
+.command > .conteiner {
+  flex-direction: column;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.command .title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.foto > img {
+  margin-bottom: 30px;
+}
+.foto > .name {
+  margin-bottom: 10px;
+}
+
+.conteiner .foto {
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  background-color: var(--primary-fon-color);
+  /* background-color: yellow; */
+
+  height: 428px;
+  width: 270px;
+}
+.conteiner .foto:not(:last-child) {
+  margin-right: 30px;
+}
+
+.name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.profession {
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.command .social {
+  padding: 0 32px;
+}
+
+.command .icon-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-social svg {
+  fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.command .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.command .icon-social:hover,
+.command .icon-social:focus {
+  background-color: var(--primary-logo-color);
+}
+
+.icon-social:hover svg,
+.icon-social:focus svg {
+  fill: var(--primary-fon-color);
+}
