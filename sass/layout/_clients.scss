@@ -37,11 +37,11 @@
 
 .clients .link-clients:hover,
 .clients .link-clients:focus {
-  border: 1px solid var(--primary-logo-color);
+  border: 1px solid $primary-logo-color;
   border-radius: 4px;
 }
 
 .link-clients:hover svg,
 .link-clients:focus svg {
-  fill: var(--primary-logo-color);
+  fill: $primary-logo-color;
 }

@@ -1,7 +1,7 @@
 /* footer */
 
 .footer {
-  background-color: var(--secondary-fon-color);
+  background-color: $secondary-fon-color;
 }
 
 .footer > .conteiner {
@@ -21,7 +21,7 @@
 /* logo  */
 
 .footer .logolegs {
-  color: var(--primary-fon-color);
+  color: $primary-fon-color;
 }
 
 .footer .logo {
@@ -40,7 +40,7 @@
 }
 
 .footer-address .geo {
-  color: var(--primary-fon-color);
+  color: $primary-fon-color;
 
   font-style: normal;
   font-weight: 400;
@@ -58,7 +58,7 @@
 }
 
 .footer .title {
-  color: var(--primary-fon-color);
+  color: $primary-fon-color;
 
   font-style: normal;
   text-transform: uppercase;
@@ -87,11 +87,11 @@
   margin-right: 10px;
 }
 .footer .icon-social svg {
-  fill: var(--primary-fon-color);
+  fill: $primary-fon-color;
 }
 .footer .icon-social:hover,
 .footer .icon-social:focus {
-  background-color: var(--primary-logo-color);
+  background-color: $primary-logo-color;
 }
 
 /* footer-form-telegram */
@@ -102,7 +102,7 @@
 }
 
 .title-form-footer {
-  color: var(--primary-fon-color);
+  color: $primary-fon-color;
 
   font-weight: 700;
   font-size: 14px;
@@ -146,8 +146,8 @@
   margin-left: 8px;
 
   outline: none;
-  background-color: var(--primary-logo-color);
-  color: var(--primary-fon-color);
+  background-color: $primary-logo-color;
+  color: $primary-fon-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: transparent;

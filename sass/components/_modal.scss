@@ -20,7 +20,7 @@
   width: 528px;
   height: 581px;
 
-  background-color: var(--primary-fon-color);
+  background-color: $primary-fon-color;
 }
 
 .modal .title {
@@ -48,7 +48,7 @@
 
   letter-spacing: 0.01em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .modal-form {
@@ -76,13 +76,13 @@
 
 .modal-form:hover,
 .modal-form:focus {
-  border: 1px solid var(--primary-logo-color);
+  border: 1px solid $primary-logo-color;
   cursor: pointer;
 }
 
 .modal-form:hover + svg,
 .modal-form:focus + svg {
-  fill: var(--primary-logo-color);
+  fill: $primary-logo-color;
 }
 
 .modal textarea {
@@ -120,13 +120,13 @@
   font-size: 14px;
   line-height: 1.71;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .modal-policy-link {
   text-decoration: underline;
 
-  color: var(--primary-logo-color);
+  color: $primary-logo-color;
 }
 
 .checkbox-policy:checked + .modal-policy svg {
@@ -140,7 +140,7 @@
   min-width: 200px;
   height: 50px;
   outline: none;
-  color: var(--primary-fon-color);
+  color: $primary-fon-color;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: transparent;
@@ -171,7 +171,7 @@
 
 .close-button:hover svg,
 .close-button:focus svg {
-  fill: var(--primary-logo-color);
+  fill: $primary-logo-color;
 }
 
 .is-hidden {

@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: var(--primary-fon-color);
-  color: var(--primary-text-color);
+  background-color: $primary-fon-color;
+  color: $primary-text-color;
 
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 img {

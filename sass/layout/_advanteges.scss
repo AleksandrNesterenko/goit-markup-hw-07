@@ -26,7 +26,7 @@
 .advantages-list .item::before {
   content: "";
   display: flex;
-  background-color: var(--supporting-fon-color);
+  background-color: $supporting-fon-color;
   width: 270px;
   height: 120px;
   border-radius: 4px;
