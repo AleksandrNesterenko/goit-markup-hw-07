@@ -312,13 +312,25 @@ ul {
   padding-top: 12px;
 }
 
-.footer .logolegs {
-  color: #ffffff;
-}
-
 .footer .logo {
   display: flex;
   margin-bottom: 20px;
+}
+
+.footer .logo .logolegs {
+  color: #ffffff;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer .logo .logohead {
+  color: #2196f3;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer .footer-address {

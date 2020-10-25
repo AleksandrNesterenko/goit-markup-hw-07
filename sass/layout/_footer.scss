@@ -23,12 +23,26 @@
   .social-footer {
     padding-top: 12px;
   }
-  .logolegs {
-    color: $primary-fon-color;
-  }
+
   .logo {
     display: flex;
     margin-bottom: 20px;
+    .logolegs {
+      color: $primary-fon-color;
+
+      font-family: raleway, sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+    }
+    .logohead {
+      color: $primary-logo-color;
+
+      font-family: raleway, sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+    }
   }
   .footer-address {
     flex-direction: column;
